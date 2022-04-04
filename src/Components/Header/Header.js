@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/Logo.png'
@@ -6,18 +7,18 @@ import logo from '../../Images/Logo.png'
 const Header = () => {
     return (
         <div>
-            <Navbar className='' bg="" sticky="top" expand="lg" >
+            <Navbar className='nav-container' bg="" sticky="top" expand="lg" >
                 <Container>
-                <Navbar.Brand href="#home"><img width="40px" src={logo} alt="" srcset="" /></Navbar.Brand>
+                <Navbar.Brand className='fw-bold' href="/"><img width="40px" src={logo} alt="" srcset="" />WATCH</Navbar.Brand>
                     
                     <Navbar.Toggle  aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
-                        <Nav.Link className='fw-bold text-gray' as={Link} to="/">HOME </Nav.Link>
-                        <Nav.Link className='fw-bold text-gray' as={Link} to="/reviews">REVIEWS</Nav.Link>
-                        <Nav.Link className='fw-bold text-gray' as={Link} to="/dashboard">DASHBOARD</Nav.Link>
-                        <Nav.Link className='fw-bold text-gray' as={Link} to="/blogs">BLOGS</Nav.Link>
-                        <Nav.Link className='fw-bold text-gray' as={Link} to="/about">ABOUT</Nav.Link>
+                    <Nav className="ms-auto nav-link">
+                        <Nav.Link className='fw-bold' as={Link} to="/">HOME </Nav.Link>
+                        <Nav.Link className='fw-bold' as={Link} to="/reviews">REVIEWS</Nav.Link>
+                        <Nav.Link className='fw-bold' as={Link} to="/dashboard">DASHBOARD</Nav.Link>
+                        <Nav.Link className='fw-bold' as={Link} to="/blogs">BLOGS</Nav.Link>
+                        <Nav.Link className='fw-bold' as={Link} to="/about">ABOUT</Nav.Link>
                         
                     </Nav>
                     </Navbar.Collapse>
