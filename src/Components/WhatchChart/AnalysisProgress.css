@@ -1,0 +1,13 @@
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .chart-detail{
+        width:50%;
+        
+    }
+  }

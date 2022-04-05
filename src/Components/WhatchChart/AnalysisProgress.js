@@ -1,6 +1,6 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import './AnalysisProgress.css'
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 const AnalysisProgress = () => {
     const data = [
       {
@@ -41,13 +41,36 @@ const AnalysisProgress = () => {
       },
     ];
     return (
-     <div className=''>
-        {/* <Row className='d-flex align-items-center container mx-auto my-5'>
-            <Col className={6}>
-              <p>Month</p>
-            </Col>
-        </Row>  */}
-     </div>
+     
+        <div className='chart-container'>
+            <div>
+              <p className='text-center fw-bold'>Month Wise Sell</p>
+              <ComposedChart className='chart-detail' width={800} height={300} data={data} margin={{right:60}}>
+                <Tooltip/>
+                <XAxis dataKey="month"/>
+                <YAxis/>
+                <Legend/>
+                <CartesianGrid stroke='#f5f5f5'/>
+                <Area type="monotone" dataKey="investment" fill="#8884d8" stroke='#8884d8'/>
+                <Bar dataKey="sell" barSize={20} fill="#413ea0"/>
+                <Line type="monotone" dataKey="revenue" stroke='#ff7300'/>
+              </ComposedChart>
+            </div>
+
+            <div className='mt-4'>
+              <p className='text-center fw-bold'>Investment vs Revnue </p>
+              <BarChart className='chart-detail' width={800} height={300} data={data} margin={{right:30, top:20,left:20, bottom:5}}>
+              <CartesianGrid strokeDasharray="3 3"/>
+              <XAxis dataKey="month"/>
+              <YAxis/>
+              <Legend/>
+              <Tooltip/>
+              <Bar dataKey="investment" stackId="a" fill="#f7c3ed"/>
+              <Bar dataKey="revenue" stackId="a" fill="#c96088"/>
+              </BarChart>
+            </div>
+        </div>
+   
     );
 };
 
