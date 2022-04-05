@@ -1,5 +1,6 @@
 .nav-container{
-    background-color: rgb(235, 143, 175);
+    background-color: rgba(198, 46, 122, 0.831);
+    color: white !important;
 }
 .nav-link{
     color: white;

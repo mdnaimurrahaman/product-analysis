@@ -11,9 +11,9 @@ const CustomerReview = () => {
     return (
         
         <div className='customer-review mt-4'>
-            <h3 className='text-center mb-3'>Customer review</h3>
+            <h3 className='text-center mb-3 text-white'>Customer review</h3>
             {
-                reviews.slice(0,2).map(reviewItem => <ShowReview reviewItem={reviewItem} key ={reviewItem.id}></ShowReview>)
+                reviews.slice(0,3).map(reviewItem => <ShowReview reviewItem={reviewItem} key ={reviewItem.id}></ShowReview>)
             }
             <div className='mt-3'>
                 <Link className='see-btn' to="/reviews">See all</Link>

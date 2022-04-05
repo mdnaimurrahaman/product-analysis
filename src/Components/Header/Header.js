@@ -7,7 +7,7 @@ import logo from '../../Images/Logo.png'
 const Header = () => {
     return (
         <div>
-            <Navbar className='nav-container' bg="" sticky="top" expand="lg" >
+            <Navbar className='nav-container container' bg="" sticky="top" expand="lg" >
                 <Container>
                 <Navbar.Brand className='fw-bold' href="/"><img width="40px" src={logo} alt="" srcset="" />WATCH</Navbar.Brand>
                     
