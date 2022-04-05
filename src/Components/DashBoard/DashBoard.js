@@ -1,9 +1,10 @@
 import React from 'react';
+import AnalysisProgress from '../WhatchChart/AnalysisProgress';
 
 const DashBoard = () => {
     return (
-        <div>
-            <h1>This is Dashboard</h1>
+        <div className='container'>
+            <AnalysisProgress></AnalysisProgress>
         </div>
     );
 };
