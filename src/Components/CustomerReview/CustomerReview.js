@@ -1,20 +1,26 @@
-import React from 'react';
-import { Row } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ReviewData from '../../Hooks/ReviewData';
-import HomeCustomerReview from '../HomeCustomerReview/HomeCustomerReview';
+import ShowReview from '../ShowReview/ShowReview';
+import './CustomerReview.css'
+
 
 const CustomerReview = () => {
-    const [reviews, setreviews] = ReviewData()
+    const [reviews, setReviews] = ReviewData();
+    console.log(reviews)
     return (
-        <div>
-            <h3>{reviews.length}</h3>
-            <Row xs={1} md={2} className="g-3">
-                {
-                    reviews.slice(0,2).map(review =><HomeCustomerReview key={review.id} review={review}></HomeCustomerReview>)
-                }
-            </Row>
+        
+        <div className='customer-review mt-4'>
+            <h3 className='text-center mb-3'>Customer review</h3>
+            {
+                reviews.slice(0,2).map(reviewItem => <ShowReview reviewItem={reviewItem} key ={reviewItem.id}></ShowReview>)
+            }
+            <div className='mt-3'>
+                <Link className='see-btn' to="/reviews">See all</Link>
+            </div>
         </div>
     );
 };
 
 export default CustomerReview;
+
