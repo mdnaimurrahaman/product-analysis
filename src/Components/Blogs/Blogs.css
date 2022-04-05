@@ -1,0 +1,22 @@
+.context-info{
+    margin-bottom: 30px;
+    align-items: center;
+}
+.context-info img{
+    width: 500px;
+    margin-right: 50px;
+}
+.blogs-info{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .context-info{
+        flex-direction: column;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .context-info img{
+        width:auto
+    }
+  }
