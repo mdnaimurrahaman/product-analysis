@@ -19,7 +19,6 @@ const Header = () => {
                         <Nav.Link className='fw-bold' as={Link} to="/dashboard">DASHBOARD</Nav.Link>
                         <Nav.Link className='fw-bold' as={Link} to="/blogs">BLOGS</Nav.Link>
                         <Nav.Link className='fw-bold' as={Link} to="/about">ABOUT</Nav.Link>
-                        
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

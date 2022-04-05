@@ -1,57 +1,65 @@
 [
   {
+    "id": "1",
     "name": "Nazmul Hassan",
     "body": "Not only is this watch stylish but has such amazing features as well. What watch actually tells you to take 3 minutes of breathing time? Hello Stress Breathing. It Monitors my heart rate and blood pressure as well.",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/mc3TGL3/1.jpg"
    
   },
   {
+    "id": "2",
     "name": "Naimur Rahman",
     "body": "I received and have been wearing the watch for a week now, and I absolutely love it. This is my first smart watch, so I have nothing to compare it to, but i can’t imagine that whatever an Apple Watch has over this is worth an extra $300 or more. ",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/LxYBNCV/2.jpg"
    
   },
   {
+    "id": "3",
     "name": "Torikul Islam",
     "body": "I’m so glad that I had seen this device on sale. I have an Omron for working out. This FirYawee Smartwatch has much more options and color features that link and sync to a phone app. From the phone app you can control the watch; or you can control the watch by itself. I’m so happy with this purchase.",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/xzPCR35/3.jpg"
    
   },
   {
+    "id": "4",
     "name": "Nurul Huda",
     "body": "Love this watch! I've had it for almost a year now and have had no issues at all. Tracking seems to be pretty accurate and jives with the step tracking on my Galaxy phone. I've unintentionally bashed it many times when doing daily stuff and while I do have some scratches on the face, the watch has held up beautifully. ",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/mhCdw1K/4.jpg"
    
   },
   {
+    "id": "5",
     "name": "Shipon Islam",
     "body": " This new watch is holding battery life super great! I am very happy with the functions of the watch. The watch faces that are available are nice and they update them quickly with new ones to choose from.",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/ck6X0Jg/5.jpg"
    
   },
   {
+    "id": "6",
     "name": "Emon Bhuiyan",
     "body": "I wanted a smart watch, but didn't want to pay a fortune. My husband surprised me with this and I love it! I have all the features I wanted at a fraction of the price. It has a long lasting battery, and when needed, you can re-charge it!",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/fqj4cXX/6.jpg"
    
   },
   {
+    "id": "7",
     "name": "Sabbir Limon",
     "body": " My second smart watch took forever to come from China and cost $75. It broke after 18 months. Have no idea how long this one will last but at $42 or thereabouts was willing to take a chance.",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/vLvDhkk/7.jpg"
    
   },
   {
+    "id": "8",
     "name": "Omor faruk",
     "body": "Wow! I got this for my daughter so she wouldn't miss our texts and calls if her phone was in her purse. This thing is really high quality... even the charger is great. Apps and settings are strait forward ... Watch App on iOS is full featured, easy to pair and navigate.",
-    "rating":Review: 5.0,
+    "rating":"Review: 5.0",
     "img": "https://i.ibb.co/2cJyGfW/8.jpg"
    
   }

@@ -1,0 +1,12 @@
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    background-color: rgb(24, 23, 23);
+}
+
+@media only screen and (max-width: 600px) {
+    .review-container{
+        grid-template-columns:1fr;
+    }
+  }

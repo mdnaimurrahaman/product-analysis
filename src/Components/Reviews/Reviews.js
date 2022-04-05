@@ -1,9 +1,15 @@
 import React from 'react';
+import './Reviews.css'
+import ReviewData from '../../Hooks/ReviewData';
+import AllCustomerReviews from '../HomeCustomerReview/AllCustomerReviews/AllCustomerReviews';
 
 const Reviews = () => {
+    const [reviews, setreviews] = ReviewData()
     return (
-        <div>
-            <h1>This is reviews page</h1>
+        <div className='review-container container'>
+            {
+                reviews.map(review => <AllCustomerReviews key={review.id}review={review}></AllCustomerReviews>)
+            }
         </div>
     );
 };
